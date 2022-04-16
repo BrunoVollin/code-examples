@@ -1,0 +1,19 @@
+{
+  "name": "web-soket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ts-node": "^10.7.0",
+    "ws": "^8.5.0" // web-socket
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.3"
+  }
+}
